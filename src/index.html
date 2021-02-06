@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Stock Ticker Application</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+     <h1>Stock Ticker Application</h1>
+
+    <div class="content">
+   
+    <section class="search">
+      <h1>Stock Search</h1>
+      <div class="form">
+        <form class="frm-symbol">
+          <label for="symbol">Ticker Symbol</label>
+          <input type="text" id="symbol" name="symbol" />
+          <button class="btn"type="submit">View</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="display">
+      <h1>Stock Viewer</h1>
+      <div>symbol: <span class="symbol"></span></div>
+      <div>current price: <span class="price"></span></div>
+      <div>date: <span class="date"></span></div>
+      <div>low: <span class="low"></span></div>
+      <div>high: <span class="high"></span></div>
+      <div>change: <span class="change"></span></div>
+    </section>
+
+
+  </div>
+ 
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
