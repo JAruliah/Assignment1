@@ -1,0 +1,2 @@
+This application is used to get stock information when given a ticker symbol, the application connects to an api to fetch the data. use npm install to install all dependancies, npm run build to build the project for production, npm run dev to build the project for development. I am working with the alphavantage api link to documentation https://www.alphavantage.co/documentation/ 
+This is a working demo of the app https://jonathanaruliahdmit2008assignment1.netlify.app/
